@@ -3,6 +3,11 @@
 h1 {
 	font-family:'Space Mono', monospace;
 }
+h3 {
+	font-family: 'Karla', sans-serif;
+	text-transform: uppercase;
+
+}
 
 p {
 	font-family: 'Karla', sans-serif;
