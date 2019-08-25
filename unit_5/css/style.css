@@ -16,4 +16,10 @@ p {
 
 section {
 	background-color: #FFE2B8;
+	padding: 50px;
 }
+
+.projectwrapper {
+	display:inline-block;
+	padding:0 2em;
+	}
