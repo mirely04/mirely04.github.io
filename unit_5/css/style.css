@@ -3,12 +3,17 @@
 h1 {
 	font-family:'Space Mono', monospace;
 }
+
 h3 {
 	font-family: 'Karla', sans-serif;
 	text-transform: uppercase;
-
+	padding: 10px;
 }
 
 p {
 	font-family: 'Karla', sans-serif;
+}
+
+section {
+	background-color: #FFE2B8;
 }
