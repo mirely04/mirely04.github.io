@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Space+Mono&display=swap');
+
+h1 {
+	font-family:'Space Mono', monospace;
+	font-size: 32px;
+}
+
+h3 {
+	font-family: 'Karla', sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+}
+
+section {
+	background-color: #FFE2B8;
+	padding: 0 50;
+}
+
+footer{
+	background-color: #FF957E;
+}
+
+.projectwrapper {
+	width: 30%;
+	display: inline-block;
+	padding: 0 3.125em;
+}
+
+ul {
+	list-style: none;
+	text-decoration: underline;
+}
