@@ -5,6 +5,12 @@ h1 {
 	font-size: 32px;
 }
 
+h2 {
+	font-family: 'Karla', sans-serif;
+	font-size: 10px;
+
+}
+
 h3 {
 	font-family: 'Karla', sans-serif;
 	font-size: 10px;
@@ -17,12 +23,11 @@ p {
 }
 
 section {
-	background-color: #FFE2B8;
 	padding: 0 50;
 }
 
 footer{
-	background-color: #FF957E;
+
 }
 
 .projectwrapper {
@@ -34,4 +39,28 @@ footer{
 ul {
 	list-style: none;
 	text-decoration: underline;
+}
+
+#column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#middle {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 5px;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 5px;
 }
