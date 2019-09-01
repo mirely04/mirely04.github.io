@@ -6,9 +6,8 @@ h1 {
 }
 
 h2 {
-	font-family: 'Karla', sans-serif;
-	font-size: 10px;
-
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
 }
 
 h3 {
@@ -44,23 +43,29 @@ ul {
 #column {
     background-color: #FFB7CF;
     border: 1px black solid;
-    padding: 20px;
+    padding: 5px;
 }
 
 #left {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 5px;
+    float: left;
+    width: 30%;
 }
 
 #middle {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 5px;
+    float: left;
+    width: 30%;
 }
 
 #right {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 5px;
+    float: left;
+    width: 30%;
 }
