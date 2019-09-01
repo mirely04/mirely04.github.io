@@ -38,32 +38,24 @@ ul {
 
 #column {
     background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 5px;
 }
 
 #left {
     background-color: #E582A2;
-    border: 1px black solid;
-    padding: 5px;
     float: left;
-    width: 30%;
+    width: 33.3%;
 }
 
 #middle {
     background-color: #E582A2;
-    border: 1px black solid;
-    padding: 5px;
     float: left;
-    width: 30%;
+    width: 33.3%;
 }
 
 #right {
     background-color: #E55B88;
-    border: 1px black solid;
-    padding: 5px;
     float: left;
-    width: 30%;
+    width: 33.3%;
 }
 
 .clearfix:after {
