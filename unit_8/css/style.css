@@ -14,7 +14,6 @@ h1 {
 	font-weight: 100;
 	font-size: 3em;
 	padding: 2em 0;
-	width: 80%;
 }
 
 h2 {
@@ -29,20 +28,27 @@ h3 {
 
 
 header {
-	
-}
-
-nav a {
-	display: inline-block;
+	align-items: center;
+	display:flex;
+	justify-content: space-between;
 	padding: 1em;
-	float: right;
-	font-size: 1em;
-	text-transform: uppercase;
+	margin: 1em;
 }
 
 section {
 	padding: 1em;
 	margin: 1em;
+}
+
+footer {
+	padding: 1em;
+	margin: 1em;
+}
+
+nav a {
+	padding: 1em;
+	font-size: 1em;
+	text-transform: uppercase;
 }
 
 img {
@@ -52,6 +58,7 @@ img {
 ul {
 	list-style: none;
 	float: right;
+	padding: 0;
 }
 
 a {
@@ -61,14 +68,17 @@ a {
 
 #logo {
 	max-width: 15%;
-	margin-top: 2em;
-	display: inline-block;
 }
 
 #cta {
 	text-align: center;
-	margin: 2em;
-	padding: 4em;
+	margin: 1em;
+	padding: 2em;
+}
+
+#columns {
+	display: flex;
+	justify-content: space-between;
 }
 
 #float {
@@ -77,10 +87,16 @@ a {
 }
 
 #project {
+	width: 30%;
+}
+
+/*
+#project {
     float: left;
     width: 31%;
     padding: 1%;
 }
+*/
 
 #button {
 	display: inline-block;
@@ -98,3 +114,81 @@ a {
     clear: both;
     height: 0;
 }
+
+@media only screen and (max-width: 920px) {
+
+	h1 {
+		font-size: 2.5em;
+	}
+	h2 {
+		font-size: 1.5em;
+	}
+
+}
+
+@media only screen and (max-width: 740px) {
+	#columns {
+		display: block;
+	}
+	#project {
+		width: 100%;
+		margin-top: 4em;
+	}
+	#logo {
+		max-width: 30%
+	}
+
+}
+
+@media only screen and (min-width: 259px) and (max-width: 375px) {
+	h1 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1em;
+	}
+	h3 {
+		font-size: .75em;
+	}
+	ul {
+		float:left;
+		display: block;
+		margin: 0;
+	}
+
+	header {
+		display: block;
+		padding: .5em;
+		margin: .5em;
+	}
+
+	nav a {
+	padding: 1em 1em 1em 0;
+	}
+
+	nav {
+		padding: 30px 0;
+	}
+	body {
+		padding: .2em;
+	}
+	section {
+		padding: .5em;
+		margin: .5em;
+	}
+
+	#float {
+		float: none;
+		padding: 1em 0 0 0;
+	}
+	#logo {
+		max-width: 100%
+		margin: 0;
+	}
+
+	#cta {
+		padding: 0;
+	}
+}
+
+
