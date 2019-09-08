@@ -1,44 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Karla|Space+Mono&display=swap');
 
 body {
-	margin: 0 10%;
 	color: #000235;
 	background-color: #F9F9F9;
-
+	font-family: 'Karla', sans-serif;
+    max-width: 1400px;
+    margin: auto;
+    padding: 1em;
 }
+
 h1 {
 	font-family:'Space Mono', monospace;
 	font-weight: 100;
-	font-size: 48px;
-	padding: 60px 0;
-	width: 70%;
+	font-size: 3em;
+	padding: 2em 0;
+	width: 80%;
 }
 
 h2 {
 	font-family: 'Space Mono', monospace;
-	font-size: 26px;
+	font-size: 2em;
 }
 
 h3 {
-	font-family: 'Karla', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	text-transform: uppercase;
 }
 
-p {
-	font-family: 'Karla', sans-serif;
-}
 
 header {
-	padding: 50px 0;
-	float:left;
+	
 }
 
-nav {
+nav a {
+	display: inline-block;
+	padding: 1em;
 	float: right;
+	font-size: 1em;
+	text-transform: uppercase;
 }
+
 section {
-	padding: 50px 0;
+	padding: 1em;
+	margin: 1em;
 }
 
 img {
@@ -46,45 +50,44 @@ img {
 }
 
 ul {
-	font-family: 'Karla', sans-serif;
 	list-style: none;
+	float: right;
 }
 
 a {
-	font-family: 'Karla', sans-serif;
 	text-decoration: none;
 	color: #F2A6F2;
 }
 
 #logo {
-	max-width: 200px;
+	max-width: 15%;
+	margin-top: 2em;
+	display: inline-block;
 }
 
 #cta {
 	text-align: center;
+	margin: 2em;
+	padding: 4em;
 }
 
-
-#column {
-    
+#float {
+	float: left;
+	padding: 1em;
 }
 
-#left {
+#project {
     float: left;
     width: 31%;
     padding: 1%;
 }
 
-#middle {
-    float: left;
-    width: 31%;
-    padding: 1%;
-}
-
-#right {
-    float: left;
-    width: 31%;
-    padding: 1%;
+#button {
+	display: inline-block;
+	padding: 1em 2em;
+	background-color: #F2A6F2;
+	color: #000235; 
+	margin: 2em;
 }
 
 .clearfix:after {
